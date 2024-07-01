@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Khslid Khashaba</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <h3>khalid khashaba</h3>
+        <ul>
+            <li data-target="home" onclick="li1()" class="home">home</li>
+            <li data-target="about" onclick="li1()" class="about">about</li>
+            <li data-target="skills" onclick="li1()" class="skills">skills</li>
+            <!-- <li class="connect">connect</li> -->
+        </ul>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="menunone"><i class="fa-solid fa-x"></i></div>
+    </nav>
+    <section>
+        <div id="home" class="home">
+            <div class="text1">
+                <p dir="ltr">مرحبا انا اسمي </p>
+            <h1>Khalid khashaba</h1>
+            <p dir="ltr">انا مصمم مواقع </p>
+                <div dir="" class="social">
+                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/HVCQ2BMCHSPKN1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="btnabout"><a href="#" class="about">About Me</a></div>
+            </div>
+            <div class="my-img"><img src="my photo.jpg"></div>
+        </div>
+        <div id="about" class="about">
+            <h2>About</h2>
+            <div class="contaner1">
+                <div class="text2">
+                    <h3 dir="rtl">مرحبا انا اسمي  <span> Khalid Khashaba</span></h3>
+                    <p dir="rtl">أنا مبرمج مواقع ولدي خبرة واسعة في تصميم وتطوير المواقع. أعمل بخبرة واحترافية عالية في مجال تطوير الواجهة الأمامية.</p>
+                    <p dir="rtl">أنا شغوف بالتكنولوجيا وأحرص دائمًا على مواكبة أحدث التقنيات والتطورات في عالم البرمجة. واسعى دائمًا لتحقيق أفضل النتائج وتقديم حلول مبتكرة وفعالة لعملائه.</p>
+                </div>
+                <div class="img1"><img src="developer1.jpg"></div>
+            </div>
+        </div>
+        <div id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p dir="rtl">أنا محترف فيه وأبني أساس الصفحة به</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p dir="rtl">أنا محترف في ذلك وأقوم ببناء مظهر جذاب للصفحة</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JAVASCRIPT</h3>
+                    <p dir="rtl">أنا محترف في ذلك وأجعل الصفحة أكثر تفاعلية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button id="scrollup" onclick="scrollup()"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="index.js"></script>
+</body>
+</html>
