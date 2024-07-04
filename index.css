@@ -160,7 +160,7 @@ section .home .text1 .btnabout{
 section .about h2 , .skills h2{
     font-size: 40px;
     text-decoration: underline;
-    margin: 0 45%;
+    text-align: center;
 }
 section .about .contaner1 .text2{
     margin-left: 1rem;
