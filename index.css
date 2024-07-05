@@ -13,7 +13,17 @@
     box-sizing: border-box;
     font-family: "Changa", sans-serif;
     color: var(--text);
-
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--scroll);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--nav2);
+    border-radius: 10px;
+    cursor:grab;
 }
 body{
     background-color: var(--background);
