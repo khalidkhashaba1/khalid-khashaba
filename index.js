@@ -3,8 +3,9 @@ let menu = document.querySelector(".menu")
 let ul = document.querySelector("ul")
 let menunone = document.querySelector(".menunone")
 let p1 = document.querySelectorAll(".text1 p")
-
+let click1
 //menu
+if( window.innerWidth<=900){
 menu.addEventListener("click" , function(){
     ul.classList.add("ul2")
     menu.style.display ="none"
@@ -20,7 +21,7 @@ function li1() {
     menu.style.display ="inline-block"
     menunone.style.display = "none"
 }
-
+}
 //nav
 document.querySelectorAll('nav li').forEach(item => {
   item.addEventListener('click', function() {

@@ -6,6 +6,7 @@
     --shadow: #9ba8ab ;
     --background2: #06141b ;
     --nav2: #ccd0cf83 ;
+    --scroll: rgb(27, 26, 26) ;
 }
 *{
     margin: 0;
@@ -44,6 +45,7 @@ nav{
     width: 95%;
     border-radius: 10px;
     margin-top: 10px;
+    backdrop-filter: blur(10px);
 }
 nav h3{
     font-size: 24px;
@@ -126,6 +128,7 @@ section .home .text1{
 }
 section .home .text1 p{
     font-size: 30px;
+    text-align: center;
 }
 section .home .text1 h1{
     font-size: 50px;
@@ -180,7 +183,7 @@ section .about h2 , .skills h2{
 section .about .contaner1,section .skills .cards{
     animation: view1 linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry -10% cover 20%;
 }
 @keyframes view1{
     from{
@@ -286,6 +289,9 @@ section .skills .cards .card{
     width: 30%;
     height: 20rem;
 }
+.ul2{
+    backdrop-filter: blur(10px);
+}
 @media(max-width: 900px){
     section .home{
         display: flex;
@@ -299,6 +305,10 @@ section .skills .cards .card{
     }
     nav ul{
         display: none;
+        backdrop-filter: blur(10px);
+    }
+    section .about .contaner1,section .skills .cards{
+        animation: none;
     }
     .ul2{
         list-style: none;
